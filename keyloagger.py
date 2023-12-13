@@ -13,4 +13,3 @@ def keyscan(tecla):
 
 with Listener(on_press=keyscan) as listener:
  listener.join()
-endrigo
